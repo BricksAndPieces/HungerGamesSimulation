@@ -1,13 +1,16 @@
 package hungergames.simulation;
 
+import com.sun.tools.internal.jxc.ap.Const;
 import hungergames.Constants;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import hungergames.simulation.arena.Event;
 import hungergames.simulation.arena.Phase;
 import hungergames.simulation.entities.Tribute;
+import util.JSONFileReader;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
@@ -26,21 +29,10 @@ public class HungerGames {
     //private final JSONArray arenaEvents;    TODO: figure out how to do this one
 
     public HungerGames() {
-        JSONObject data;
-        try {
-            final BufferedReader br = new BufferedReader(new FileReader(Constants.JSON_FILE_NAME));
-            final StringBuilder sb = new StringBuilder();
-
-            String line = br.readLine();
-            while(line != null) {
-                sb.append(line);
-                line = br.readLine();
-            }
-
-            data = new JSONObject(sb.toString());
-
-        }catch(final IOException e) {
-            throw new RuntimeException("Failed to access the json events file");
+        final JSONObject data;
+        try { data = JSONFileReader.read(Constants.JSON_FILE_NAME); }
+        catch(final IOException e) {
+            throw new IllegalArgumentException("Could not locate the json file containing the events");
         }
 
         final JSONObject bloodbath = data.getJSONObject("bloodbath");
