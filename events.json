@@ -1,0 +1,159 @@
+{
+  "bloodbath" : {
+    "peaceful" : [
+
+    ],
+    "fatal" : [
+
+    ]
+  },
+  "day" : {
+    "peaceful" : [
+      {
+        "message" : "{0} goes hunting",
+        "tributes" : 1
+      },
+      {
+        "message" : "{0} injures {0.himself_herself}",
+        "tributes" : 1
+      }
+    ],
+    "fatal" : [
+      {
+        "message" : "{0} catches {1} off guard and kills {1.him_her}",
+        "killers" : [0],
+        "killed" : [1],
+        "tributes" : 2
+      }
+    ]
+  },
+  "night" : {
+    "peaceful" : [
+
+    ],
+    "fatal" : [
+
+    ]
+  },
+  "arena" : [
+    {
+      "title" : "Wolf Mutts",
+      "description" : "Wolf mutts are released into the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Acid Rain",
+      "description" : "Acid rains falls down onto the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },{
+      "title" : "Poison Cloud",
+      "description" : "A cloud of poisonous gas seeps fills up the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Hurricane",
+      "description" : "An enormous hurricane wrecks havoc on the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Tracker Jacker Swarm",
+      "description" : "A swarm of tracker jackers invade the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Tsunami",
+      "description" : "A giant wave washes across the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Firestorm",
+      "description" : "A fire breaks out and spreads rapidly through the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Border Shrink",
+      "description" : "The borders of the arena begin to shrink rapidly",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Monkey Mutts",
+      "description" : "Groups of monkey mutts storm the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Carnivorous Squirrels",
+      "description" : "Carnivorous squirrels begin invading the arena",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Volcano",
+      "description" : "A nearby volcano begins to erupt near the arena ",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    },
+    {
+      "title" : "Total Darkness",
+      "description" : "The arena turns pitch black and no one can see anything",
+      "peaceful" : [
+
+      ],
+      "fatal" : [
+
+      ]
+    }
+  ]
+}
