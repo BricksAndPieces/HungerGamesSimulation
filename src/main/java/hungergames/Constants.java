@@ -1,4 +1,4 @@
-package simulation;
+package hungergames;
 
 public class Constants
 {

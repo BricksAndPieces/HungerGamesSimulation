@@ -1,4 +1,4 @@
-package simulation.arena;
+package hungergames.simulation.arena;
 
 public enum Phase {
 

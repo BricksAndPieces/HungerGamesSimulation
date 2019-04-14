@@ -1,10 +1,11 @@
-package simulation;
+package hungergames.simulation;
 
+import hungergames.Constants;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import simulation.arena.Event;
-import simulation.arena.Phase;
-import simulation.entities.Tribute;
+import hungergames.simulation.arena.Event;
+import hungergames.simulation.arena.Phase;
+import hungergames.simulation.entities.Tribute;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package simulation.entities;
+package hungergames.simulation.entities;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * The class that defines a single Tribute object within the simulation
+ * The class that defines a single Tribute object within the hungergames.simulation
  *
  * Each Tribute has a name, icon, gender, and district to help perform calculations
  * and make the UI appealing to the eye

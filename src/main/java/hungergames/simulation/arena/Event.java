@@ -1,8 +1,8 @@
-package simulation.arena;
+package hungergames.simulation.arena;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import simulation.entities.Tribute;
+import hungergames.simulation.entities.Tribute;
 
 import java.util.ArrayList;
 import java.util.Collections;
