@@ -1,649 +1,10 @@
 {
   "bloodbath" : {
     "peaceful" : [
-      {
-        'msg': "{0} starts a fire.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} sets up camp for the night.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} loses sight of where {0.he_she} is.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} climbs a tree to rest.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} goes to sleep.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} and {1} tell stories about themselves to each other.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0}, {1}, {2}, and {3} sleep in shifts.",
-        'tributes': 4
-      },
-      {
-        'msg': "{0}, {1}, and {2} sleep in shifts.",
-        'tributes': 3
-      },
-      {
-        'msg': "{0} and {1} sleep in shifts.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} tends to {0.his_her} wounds.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} sees a fire, but stays hidden.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} screams for help.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} stays awake all night.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} passes out from exhaustion.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} cooks {0.his_her} food before putting {0.his_her} fire out.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} and {1} run into each other and decide to truce for the night.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} fends {1}, {2}, and {3} away from {0.his_her} fire.",
-        'tributes': 4
-      },
-      {
-        'msg': "{0}, {1}, and {2} discuss the games and what might happen in the morning.",
-        'tributes': 3
-      },
-      {
-        'msg': "{0} cries {0.himself_herself} to sleep.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} tries to treat {0.his_her} infection.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} and {1} talk about the tributes still alive.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} is awoken by nightmares.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} and {1} huddle for warmth.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} thinks about winning.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0}, {1}, {2}, and {3} tell each other ghost stories to lighten the mood.",
-        'tributes': 4
-      },
-      {
-        'msg': "{0} looks at the night sky.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} defeats {1} in a fight, but spares {1.his_her} life.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} begs for {1} to kill {0.him_her}. {1.he_she_cap} refuses, keeping {0} alive.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} destroys {1}'s supplies while {1.he_she} is asleep.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0}, {1}, {2}, {3}, and {4} sleep in shifts.",
-        'tributes': 5
-      },
-      {
-        'msg': "{0} lets {1} into {0.his_her} shelter.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} receives a hatchet from an unknown sponsor.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} receives clean water from an unknown sponsor.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} receives medical supplies from an unknown sponsor.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} receives fresh food from an unknown sponsor.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} tries to sing {0.himself_herself} to sleep.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} attempts to start a fire, but is unsuccessful.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} thinks about home.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} tends to {1}'s wounds.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} quietly hums.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0}, {1}, and {2} cheerfully sing songs together.",
-        'tributes': 3
-      },
-      {
-        'msg': "{0} is unable to start a fire and sleeps without warmth.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} and {1} hold hands.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} convinces {1} to snuggle with {0.him_her}.",
-        'tributes': 2
-      },
-      {
-        'msg': "{0} receives an explosive from an unknown sponsor.",
-        'tributes': 1
-      },
-      {
-        'msg': "{0} questions {0.his_her} sanity.",
-        'tributes': 1
-      }
+
     ],
     "fatal" : [
-      {
-        'msg': "{0} catches {1} off guard and kills {1.him_her}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} throws a knife into {1}'s head.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} begs for {1} to kill {0.him_her}. {1} reluctantly obliges, killing {0}",
-        'tributes': 2,
-        'killer': [1],
-        'killed': [0]
-      },
-      {
-        'msg': "{0} and {1} work together to drown {2}.",
-        'tributes': 3,
-        'killer': [0, 1],
-        'killed': [2]
-      },
-      {
-        'msg': "{0} strangles {1} after engaging in a fist fight.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} shoots an arrow into {1}'s head.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} bleeds out due to untreated injuries.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} cannot handle the circumstances and commits suicide.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} bashes {1}'s head against a rock several times.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} unknowingly eats toxic berries.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} silently snaps {1}'s neck.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} taints {1}'s food, killing {1.him_her}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} decapitates {1} with a sword.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} dies from an infection.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} spears {1} in the abdomen.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} sets {1} on fire with a molotov.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} falls into a pit and dies.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} stabs {1} while {1.his_her} back is turned.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} severely injures {1}, but puts {1.him_her} out of {1.his_her} misery.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} severely injures {1} and leaves {1.him_her} to die.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} bashes {1}'s head in with a mace.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} attempts to climb a tree, but falls to {0.his_her} death.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} pushes {1} off a cliff during a knife fight.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} throws a knife into {1}'s chest.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0}'s trap kills {1}",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} kills {1} while {1.he_she} is sleeping.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} is unable to convince {1} to not kill {0.him_her}.",
-        'tributes': 2,
-        'killer': [1],
-        'killed': [0]
-      },
-      {
-        'msg': "{0} convinces {1} not to kill {0.him_her}, only to kill {1.him_her} instead.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} falls into a frozen lake and drowns.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0}, {1}, and {2} start fighting, but {1} runs away as {0} kills {2}.",
-        'tributes': 3,
-        'killer': [0],
-        'killed': [2]
-      },
-      {
-        'msg': "{0} kills {1} with {1.his_her} own weapon.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} overpowers {1}, killing {1.him_her}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} sets an explosive off, killing {1}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} sets an explosive off, killing {1} and {2}",
-        'tributes': 3,
-        'killer': [0],
-        'killed': [1, 2]
-      },
-      {
-        'msg': "{0} sets an explosive off, killing {1}, {2}, and {3}.",
-        'tributes': 4,
-        'killer': [0],
-        'killed': [1, 2, 3]
-      },
-      {
-        'msg': "{0} sets an explosive off, killing {1}, {2}, {3}, and {4}",
-        'tributes': 5,
-        'killer': [0],
-        'killed': [1, 2, 3, 4]
-      },
-      {
-        'msg': "{0} kills {1} as {1.he_she} tries to run.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} and {1} threaten a double suicide. It fails and they die.",
-        'tributes': 2,
-        'killer': None,
-        'killed': [0, 1]
-      },
-      {
-        'msg': "{0}, {1}, {2}, and {3} form a suicide pact, killing themselves.",
-        'tributes': 4,
-        'killer': None,
-        'killed': [0, 1, 2, 3]
-      },
-      {
-        'msg': "{0} dies from hypothermia.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} dies from hunger.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} dies from thirst.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} kills {1} with a hatchet.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} and {1} fight {2} and {3}. {0} and {1} survive.",
-        'tributes': 4,
-        'killer': [0, 1],
-        'killed': [2, 3]
-      },
-      {
-        'msg': "{0} and {1} fight {2} and {3}. {2} and {3} survive.",
-        'tributes': 4,
-        'killer': [2, 3],
-        'killed': [0, 1]
-      },
-      {
-        'msg': "{0} dies trying to escape the arena.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} dies of dysentery.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} accidentally detonates a land mine while trying to arm it.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} attacks {1}, but {2} protects {1.him_her}, killing {0}",
-        'tributes': 3,
-        'killer': [2],
-        'killed': [0]
-      },
-      {
-        'msg': "{0} ambushes {1} and kills {1.him_her}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} accidentally steps on a landmine.",
-        'tributes': 1,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} severely slices {1} with a sword.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} strangles {1} with a rope",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} kills {1} for {1.his_her} supplies.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} shoots an arrow at {1}, but misses and kills {2} instead",
-        'tributes': 3,
-        'killer': [0],
-        'killed': [2]
-      },
-      {
-        'msg': "{0} shoots a poisonous blow dart into {1}'s neck, slowly killing {1.him_her}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0}, {1}, and {2} successfully ambush and kill {3}, {4}, and {5}.",
-        'tributes': 6,
-        'killer': [0, 1, 2],
-        'killed': [3, 4, 5]
-      },
-      {
-        'msg': "{0}, {1}, and {2} unsuccessfully ambush {3}, {4}, and {5}, who kill them instead.",
-        'tributes': 6,
-        'killer': [3, 4, 5],
-        'killed': [0, 1, 2]
-      },
-      {
-        'msg': "{0} stabs {1} wth a tree branch.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} decides to kill {2}.",
-        'tributes': 4,
-        'killer': [1],
-        'killed': [2]
-      },
-      {
-        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} decides to kill {3}.",
-        'tributes': 4,
-        'killer': [1],
-        'killed': [3]
-      },
-      {
-        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} refuses to kill, so {0} kills {1.him_her} "
-        "instead.",
-        'tributes': 4,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} poisons {1}'s drink, but mistakes it for {0.his_her} own and dies.",
-        'tributes': 2,
-        'killer': None,
-        'killed': [0]
-      },
-      {
-        'msg': "{0} poisons {1}'s drink. {1.he_she_cap} drinks it and dies.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} stabs {1} in the back with a trident.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} attempts to climb a tree, but falls on {1}, killing them both.",
-        'tributes': 2,
-        'killer': None,
-        'killed': [0, 1]
-      },
-      {
-        'msg': "{0}, {1}, and {2} get into a fight. {0} triumphantly kills them both.",
-        'tributes': 3,
-        'killer': [0],
-        'killed': [1, 2]
-      },
-      {
-        'msg': "{0}, {1}, and {2} get into a fight. {1} triumphantly kills them both.",
-        'tributes': 3,
-        'killer': [1],
-        'killed': [0, 2]
-      },
-      {
-        'msg': "{0}, {1}, and {2} get into a fight. {2} triumphantly kills them both.",
-        'tributes': 3,
-        'killer': [2],
-        'killed': [0, 1]
-      },
-      {
-        'msg': "{0} kills {1} with a sickle.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0}, {1}, {2}, {3}, and {4} track down and kill {5}.",
-        'tributes': 6,
-        'killer': [0, 1, 2, 3, 4],
-        'killed': [5]
-      },
-      {
-        'msg': "{0}, {1}, {2}, and {3} track down and kill {4}.",
-        'tributes': 5,
-        'killer': [0, 1, 2, 3],
-        'killed': [4]
-      },
-      {
-        'msg': "{0}, {1}, and {2} track down and kill {3}.",
-        'tributes': 4,
-        'killer': [0, 1, 2],
-        'killed': [3]
-      },
-      {
-        'msg': "{0} and {1} track down and kill {2}.",
-        'tributes': 3,
-        'killer': [0, 1],
-        'killed': [2]
-      },
-      {
-        'msg': "{0} tracks down and kills {1}.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      },
-      {
-        'msg': "{0} repeatedly stabs {1} to death with sais.",
-        'tributes': 2,
-        'killer': [0],
-        'killed': [1]
-      }
+
     ]
   },
   "day" : {
@@ -1298,10 +659,649 @@
   },
   "night" : {
     "peaceful" : [
-
+      {
+        'msg': "{0} starts a fire.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} sets up camp for the night.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} loses sight of where {0.he_she} is.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} climbs a tree to rest.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} goes to sleep.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} and {1} tell stories about themselves to each other.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0}, {1}, {2}, and {3} sleep in shifts.",
+        'tributes': 4
+      },
+      {
+        'msg': "{0}, {1}, and {2} sleep in shifts.",
+        'tributes': 3
+      },
+      {
+        'msg': "{0} and {1} sleep in shifts.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} tends to {0.his_her} wounds.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} sees a fire, but stays hidden.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} screams for help.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} stays awake all night.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} passes out from exhaustion.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} cooks {0.his_her} food before putting {0.his_her} fire out.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} and {1} run into each other and decide to truce for the night.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} fends {1}, {2}, and {3} away from {0.his_her} fire.",
+        'tributes': 4
+      },
+      {
+        'msg': "{0}, {1}, and {2} discuss the games and what might happen in the morning.",
+        'tributes': 3
+      },
+      {
+        'msg': "{0} cries {0.himself_herself} to sleep.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} tries to treat {0.his_her} infection.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} and {1} talk about the tributes still alive.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} is awoken by nightmares.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} and {1} huddle for warmth.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} thinks about winning.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0}, {1}, {2}, and {3} tell each other ghost stories to lighten the mood.",
+        'tributes': 4
+      },
+      {
+        'msg': "{0} looks at the night sky.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} defeats {1} in a fight, but spares {1.his_her} life.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} begs for {1} to kill {0.him_her}. {1.he_she_cap} refuses, keeping {0} alive.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} destroys {1}'s supplies while {1.he_she} is asleep.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0}, {1}, {2}, {3}, and {4} sleep in shifts.",
+        'tributes': 5
+      },
+      {
+        'msg': "{0} lets {1} into {0.his_her} shelter.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} receives a hatchet from an unknown sponsor.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} receives clean water from an unknown sponsor.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} receives medical supplies from an unknown sponsor.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} receives fresh food from an unknown sponsor.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} tries to sing {0.himself_herself} to sleep.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} attempts to start a fire, but is unsuccessful.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} thinks about home.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} tends to {1}'s wounds.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} quietly hums.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0}, {1}, and {2} cheerfully sing songs together.",
+        'tributes': 3
+      },
+      {
+        'msg': "{0} is unable to start a fire and sleeps without warmth.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} and {1} hold hands.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} convinces {1} to snuggle with {0.him_her}.",
+        'tributes': 2
+      },
+      {
+        'msg': "{0} receives an explosive from an unknown sponsor.",
+        'tributes': 1
+      },
+      {
+        'msg': "{0} questions {0.his_her} sanity.",
+        'tributes': 1
+      }
     ],
     "fatal" : [
-
+      {
+        'msg': "{0} catches {1} off guard and kills {1.him_her}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} throws a knife into {1}'s head.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} begs for {1} to kill {0.him_her}. {1} reluctantly obliges, killing {0}",
+        'tributes': 2,
+        'killer': [1],
+        'killed': [0]
+      },
+      {
+        'msg': "{0} and {1} work together to drown {2}.",
+        'tributes': 3,
+        'killer': [0, 1],
+        'killed': [2]
+      },
+      {
+        'msg': "{0} strangles {1} after engaging in a fist fight.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} shoots an arrow into {1}'s head.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} bleeds out due to untreated injuries.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} cannot handle the circumstances and commits suicide.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} bashes {1}'s head against a rock several times.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} unknowingly eats toxic berries.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} silently snaps {1}'s neck.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} taints {1}'s food, killing {1.him_her}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} decapitates {1} with a sword.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} dies from an infection.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} spears {1} in the abdomen.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} sets {1} on fire with a molotov.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} falls into a pit and dies.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} stabs {1} while {1.his_her} back is turned.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} severely injures {1}, but puts {1.him_her} out of {1.his_her} misery.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} severely injures {1} and leaves {1.him_her} to die.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} bashes {1}'s head in with a mace.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} attempts to climb a tree, but falls to {0.his_her} death.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} pushes {1} off a cliff during a knife fight.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} throws a knife into {1}'s chest.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0}'s trap kills {1}",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} kills {1} while {1.he_she} is sleeping.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} is unable to convince {1} to not kill {0.him_her}.",
+        'tributes': 2,
+        'killer': [1],
+        'killed': [0]
+      },
+      {
+        'msg': "{0} convinces {1} not to kill {0.him_her}, only to kill {1.him_her} instead.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} falls into a frozen lake and drowns.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0}, {1}, and {2} start fighting, but {1} runs away as {0} kills {2}.",
+        'tributes': 3,
+        'killer': [0],
+        'killed': [2]
+      },
+      {
+        'msg': "{0} kills {1} with {1.his_her} own weapon.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} overpowers {1}, killing {1.him_her}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} sets an explosive off, killing {1}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} sets an explosive off, killing {1} and {2}",
+        'tributes': 3,
+        'killer': [0],
+        'killed': [1, 2]
+      },
+      {
+        'msg': "{0} sets an explosive off, killing {1}, {2}, and {3}.",
+        'tributes': 4,
+        'killer': [0],
+        'killed': [1, 2, 3]
+      },
+      {
+        'msg': "{0} sets an explosive off, killing {1}, {2}, {3}, and {4}",
+        'tributes': 5,
+        'killer': [0],
+        'killed': [1, 2, 3, 4]
+      },
+      {
+        'msg': "{0} kills {1} as {1.he_she} tries to run.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} and {1} threaten a double suicide. It fails and they die.",
+        'tributes': 2,
+        'killer': None,
+        'killed': [0, 1]
+      },
+      {
+        'msg': "{0}, {1}, {2}, and {3} form a suicide pact, killing themselves.",
+        'tributes': 4,
+        'killer': None,
+        'killed': [0, 1, 2, 3]
+      },
+      {
+        'msg': "{0} dies from hypothermia.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} dies from hunger.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} dies from thirst.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} kills {1} with a hatchet.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} and {1} fight {2} and {3}. {0} and {1} survive.",
+        'tributes': 4,
+        'killer': [0, 1],
+        'killed': [2, 3]
+      },
+      {
+        'msg': "{0} and {1} fight {2} and {3}. {2} and {3} survive.",
+        'tributes': 4,
+        'killer': [2, 3],
+        'killed': [0, 1]
+      },
+      {
+        'msg': "{0} dies trying to escape the arena.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} dies of dysentery.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} accidentally detonates a land mine while trying to arm it.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} attacks {1}, but {2} protects {1.him_her}, killing {0}",
+        'tributes': 3,
+        'killer': [2],
+        'killed': [0]
+      },
+      {
+        'msg': "{0} ambushes {1} and kills {1.him_her}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} accidentally steps on a landmine.",
+        'tributes': 1,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} severely slices {1} with a sword.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} strangles {1} with a rope",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} kills {1} for {1.his_her} supplies.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} shoots an arrow at {1}, but misses and kills {2} instead",
+        'tributes': 3,
+        'killer': [0],
+        'killed': [2]
+      },
+      {
+        'msg': "{0} shoots a poisonous blow dart into {1}'s neck, slowly killing {1.him_her}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0}, {1}, and {2} successfully ambush and kill {3}, {4}, and {5}.",
+        'tributes': 6,
+        'killer': [0, 1, 2],
+        'killed': [3, 4, 5]
+      },
+      {
+        'msg': "{0}, {1}, and {2} unsuccessfully ambush {3}, {4}, and {5}, who kill them instead.",
+        'tributes': 6,
+        'killer': [3, 4, 5],
+        'killed': [0, 1, 2]
+      },
+      {
+        'msg': "{0} stabs {1} wth a tree branch.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} decides to kill {2}.",
+        'tributes': 4,
+        'killer': [1],
+        'killed': [2]
+      },
+      {
+        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} decides to kill {3}.",
+        'tributes': 4,
+        'killer': [1],
+        'killed': [3]
+      },
+      {
+        'msg': "{0} forces {1} to kill {2} or {3}. {1.he_she_cap} refuses to kill, so {0} kills {1.him_her} "
+        "instead.",
+        'tributes': 4,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} poisons {1}'s drink, but mistakes it for {0.his_her} own and dies.",
+        'tributes': 2,
+        'killer': None,
+        'killed': [0]
+      },
+      {
+        'msg': "{0} poisons {1}'s drink. {1.he_she_cap} drinks it and dies.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} stabs {1} in the back with a trident.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} attempts to climb a tree, but falls on {1}, killing them both.",
+        'tributes': 2,
+        'killer': None,
+        'killed': [0, 1]
+      },
+      {
+        'msg': "{0}, {1}, and {2} get into a fight. {0} triumphantly kills them both.",
+        'tributes': 3,
+        'killer': [0],
+        'killed': [1, 2]
+      },
+      {
+        'msg': "{0}, {1}, and {2} get into a fight. {1} triumphantly kills them both.",
+        'tributes': 3,
+        'killer': [1],
+        'killed': [0, 2]
+      },
+      {
+        'msg': "{0}, {1}, and {2} get into a fight. {2} triumphantly kills them both.",
+        'tributes': 3,
+        'killer': [2],
+        'killed': [0, 1]
+      },
+      {
+        'msg': "{0} kills {1} with a sickle.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0}, {1}, {2}, {3}, and {4} track down and kill {5}.",
+        'tributes': 6,
+        'killer': [0, 1, 2, 3, 4],
+        'killed': [5]
+      },
+      {
+        'msg': "{0}, {1}, {2}, and {3} track down and kill {4}.",
+        'tributes': 5,
+        'killer': [0, 1, 2, 3],
+        'killed': [4]
+      },
+      {
+        'msg': "{0}, {1}, and {2} track down and kill {3}.",
+        'tributes': 4,
+        'killer': [0, 1, 2],
+        'killed': [3]
+      },
+      {
+        'msg': "{0} and {1} track down and kill {2}.",
+        'tributes': 3,
+        'killer': [0, 1],
+        'killed': [2]
+      },
+      {
+        'msg': "{0} tracks down and kills {1}.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      },
+      {
+        'msg': "{0} repeatedly stabs {1} to death with sais.",
+        'tributes': 2,
+        'killer': [0],
+        'killed': [1]
+      }
     ]
   },
   "arena" : [

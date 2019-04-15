@@ -34,8 +34,8 @@ public class Event {
      */
     public Event(final JSONObject data, final List<Tribute> tributes) {
         this.tributes = tributes;
-        this.randomTributes = getRandomTributes(tributes, data.getInt("randomTributes"));
-        this.killers = getTributes(data, "randomTributes");
+        this.randomTributes = getRandomTributes(tributes, data.getInt("tributes"));
+        this.killers = getTributes(data, "killers");
         this.killed = getTributes(data, "killed");
         this.text = generateText(data.getString("message"));
 
@@ -118,6 +118,9 @@ public class Event {
             final String replacement;
             if(format.charAt(start+2) == '.'){
                 final String[] options = format.substring(start+3, end).split("_");
+                if(options.length != 2)
+                    throw new IllegalArgumentException("Invalid event syntax: " + format);
+
                 replacement = tribute.isMale() ? options[0] : options[1];
             }else {
                 replacement = tribute.getName();
