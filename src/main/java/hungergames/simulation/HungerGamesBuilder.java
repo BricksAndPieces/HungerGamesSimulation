@@ -1,4 +1,4 @@
-package simulation;
+package hungergames.simulation;
 
 public class HungerGamesBuilder {
 

@@ -1,38 +1,52 @@
-package simulation.arena;
+package hungergames.simulation.arena;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import simulation.entities.Tribute;
+import hungergames.simulation.entities.Tribute;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * A class that acts as a wrapper for the events stored within the json files
  * Parses the message to include any Tributes characteristics
  */
-public class Message {
+public class Event {
 
-    private final Tribute[] tributes;
+    final List<Tribute> tributes;
+
+    private final Tribute[] randomTributes;
     private final Tribute[] killers;
     private final Tribute[] killed;
 
     private final String text;
 
     /**
-     * Constructor for the Message object
+     * Constructor for the Event object
      *
      * @param data
      * The paticular JSON data that is needed for an Event
      *
-     * @param livingTributes
-     * The remaining tributes that are available to use in the Event
+     * @param tributes
+     * The remaining randomTributes that are available to use in the Event
      */
-    public Message(final JSONObject data, final List<Tribute> livingTributes) {
-        this.tributes = getRandomTributes(livingTributes, data.getInt("tributes"));
-        this.killers = getTributes(data, "tributes");
+    public Event(final JSONObject data, final List<Tribute> tributes) {
+        this.tributes = tributes;
+        this.randomTributes = getRandomTributes(tributes, data.getInt("tributes"));
+        this.killers = getTributes(data, "killers");
         this.killed = getTributes(data, "killed");
         this.text = generateText(data.getString("message"));
+
+        if(this.killers != null && this.killed != null) {
+            for(final Tribute killer : this.randomTributes) {
+                for(final Tribute dead : this.killed) {
+                    killer.addKill(dead);
+                    dead.die();
+                }
+            }
+        }
     }
 
     /**
@@ -68,7 +82,17 @@ public class Message {
     }
 
     /**
-     * A private helper method for the Message class
+     * Get a list of the remaining Tributes after the Event is completed
+     *
+     * @return
+     * An unmodifiable List with the remaining living Tributes
+     */
+    public List<Tribute> getLivingTributes() {
+        return Collections.unmodifiableList(tributes.stream().filter(t -> !t.isDead()).collect(Collectors.toList()));
+    }
+
+    /**
+     * A private helper method for the Event class
      * Formats the text for the Event to input any characteristics of the Tributes
      * that are needed.
      *
@@ -89,11 +113,14 @@ public class Message {
         int start = format.indexOf("{");
         int end = format.indexOf("}");
         if(start != -1 && end != -1 && start < end) {
-            final Tribute tribute = this.tributes[Integer.parseInt(String.valueOf(format.charAt(start+1)))];
+            final Tribute tribute = this.randomTributes[Integer.parseInt(String.valueOf(format.charAt(start + 1)))];
 
             final String replacement;
             if(format.charAt(start+2) == '.'){
                 final String[] options = format.substring(start+3, end).split("_");
+                if(options.length != 2)
+                    throw new IllegalArgumentException("Invalid event syntax: " + format);
+
                 replacement = tribute.isMale() ? options[0] : options[1];
             }else {
                 replacement = tribute.getName();
@@ -106,8 +133,8 @@ public class Message {
     }
 
     /**
-     * A private helper method for the Message class
-     * Gets an arrays of tributes using a specified key because tributes
+     * A private helper method for the Event class
+     * Gets an arrays of randomTributes using a specified key because randomTributes
      * are referenced as ints in the JSON data
      *
      * @param data
@@ -126,7 +153,7 @@ public class Message {
         final JSONArray array = data.getJSONArray(key);
         final Tribute[] output = new Tribute[array.length()];
         for(int i = 0; i < array.length(); i++)
-            output[i] = this.tributes[array.getInt(i)];
+            output[i] = this.randomTributes[array.getInt(i)];
 
         return output;
     }
@@ -138,7 +165,7 @@ public class Message {
      * A list of Tributes to choose randomly from
      *
      * @param count
-     * The number of randomly selected tributes to return
+     * The number of randomly selected randomTributes to return
      *
      * @return
      * An array of Tributes with a size specified by int value count
