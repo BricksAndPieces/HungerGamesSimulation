@@ -1,6 +1,6 @@
 {
-  "bloodbath" : {
-    "peaceful" : [
+  "bloodbath": {
+    "peaceful": [
       {
         "message": "{0} grabs a shovel.",
         "tributes": 1
@@ -114,7 +114,7 @@
         "tributes": 1
       }
     ],
-    "fatal" : [
+    "fatal": [
       {
         "message": "{0} steps off {0.his_her} podium too soon and blows up.",
         "tributes": 1,
@@ -435,8 +435,8 @@
       }
     ]
   },
-  "day" : {
-    "peaceful" : [
+  "day": {
+    "peaceful": [
       {
         "message" : "{0} goes hunting.",
         "tributes" : 1
@@ -626,7 +626,7 @@
         "tributes": 1
       }
     ],
-    "fatal" : [
+    "fatal": [
       {
         "message": "{0} catches {1} off guard and kills {1.Him_Her}.",
         "tributes": 2,
@@ -1085,8 +1085,8 @@
       }
     ]
   },
-  "night" : {
-    "peaceful" : [
+  "night": {
+    "peaceful": [
       {
         "message": "{0} starts a fire.",
         "tributes": 1
@@ -1272,7 +1272,7 @@
         "tributes": 1
       }
     ],
-    "fatal" : [
+    "fatal": [
       {
         "message": "{0} catches {1} off guard and kills {1.him_her}.",
         "tributes": 2,
@@ -1731,161 +1731,509 @@
       }
     ]
   },
-  "arena" : [
+  "arena": [
     {
-      "title" : "Wolf Mutts",
-      "description" : "Wolf mutts are released into the arena",
-      "peaceful" : [
+      "title": "Wolf Mutts",
+      "description": "Wolf mutts are released into the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is crushed by a pack of wolf mutts.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} is eaten by wolf mutts.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} knocks {1} out and leaves {1.him_her} for the wolf mutts.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} pushes {1} into a pack of wolf mutts.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "As {0} and {1} fight, a pack of wolf mutts show up and kill them both.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Acid Rain",
-      "description" : "Acid rains falls down onto the arena",
-      "peaceful" : [
+      "title": "Acid Rain",
+      "description": "Acid rains falls down onto the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is unable to find shelter and dies.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} trips face first into a puddle of acidic rain.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} injures {1} and leaves {1.him_her} in the rain to die.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} refuses {1} shelter, killing {1.him_her}.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} shoves {1} into a pond of acidic rain, but is pulled in by {1}, killing them both.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Poison Cloud",
-      "description" : "A cloud of poisonous gas seeps fills up the arena",
-      "peaceful" : [
+      "title": "Poison Cloud",
+      "description": "A cloud of poisonous gas seeps fills up the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is engulfed in the cloud of poisonous smoke.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} sacrifices {0.himself_herself} so {1} can get away.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} slowly pushes {1} closer into the cloud until {1.he_she} can't resist anymore.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} and {1} agree to die in the cloud together, but {0} pushes {1} in without warning.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} and {1} decide to run into the cloud together.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Hurricane",
-      "description" : "An enormous hurricane wrecks havoc on the arena",
-      "peaceful" : [
+      "title": "Hurricane",
+      "description": "An enormous hurricane wrecks havoc on the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is sucked into the hurricane.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} is incapacitated by flying debris and dies.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} pushes {1} into an incoming boulder.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} stabs {1}, then pushes {1.him_her} close enough for the hurricane to suck {1.him_her} in.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} tries to save {1} from being sucked into the hurricane, only to be sucked in as well.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Tracker Jacker Swarm",
-      "description" : "A swarm of tracker jackers invade the arena",
-      "peaceful" : [
+      "title": "Tracker Jacker Swarm",
+      "description": "A swarm of tracker jackers invade the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
       "fatal" : [
-
+        {
+          "message": "{0} is stung to death.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} slowly dies from the tracker jacker toxins.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} knocks {1} unconscious and leaves {1.him_her} there as bait.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "While running away from tracker jackers, {0} grabs {1} and throws {1.him_her} to the ground.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} and {1} run out of places to run and are stung to death.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Tsunami",
-      "description" : "A giant wave washes across the arena",
-      "peaceful" : [
+      "title": "Tsunami",
+      "description": "A giant wave washes across the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is swept away.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} fatally injures {0.himself_herself} on debris.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} holds {1} underwater to drown.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} defeats {1}, but throws {1.him_her} in the water to make sure {1.he_she} dies.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} and {1} smash their heads together as the tsunami rolls in, leaving them both to drown.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Firestorm",
-      "description" : "A fire breaks out and spreads rapidly through the arena",
-      "peaceful" : [
+      "title": "Firestorm",
+      "description": "A fire breaks out and spreads rapidly through the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "The fire catches up to {0}, killing {0.him_her}.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "A fireball strikes {0}, killing {0.him_her}.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} kills {1} in order to utilize a body of water safely.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} falls to the ground, but kicks {1} hard enough to then push {2.him_her} into the fire.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} and {1} fail to find a safe spot and suffocate.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Border Shrink",
-      "description" : "The borders of the arena begin to shrink rapidly",
-      "peaceful" : [
+      "title": "Border Shrink",
+      "description": "The borders of the arena begin to shrink rapidly",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is electrocuted by the border.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} trips on a tree root and is unable to recover fast enough.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} restrains {1} to a tree and leaves {1.him_her} to die.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} pushes {1} into the border while {1.he_she} is not paying attention",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "Thinking they could escape, {0} and {1} attempt to run through the border together.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Monkey Mutts",
-      "description" : "Groups of monkey mutts storm the arena",
-      "peaceful" : [
+      "title": "Monkey Mutts",
+      "description": "Groups of monkey mutts storm the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} dies from internal bleeding caused by a monkey mutt.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} is pummeled to the ground and killed by a troop of monkey mutts.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} uses {1} as a shield from the monkey mutts.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} injures {1} and leaves {1.him_her} for the monkey mutts.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "While running, {0} falls over and grabs {1} on the way down. The monkey mutts kill them.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Carnivorous Squirrels",
-      "description" : "Carnivorous squirrels begin invading the arena",
-      "peaceful" : [
+      "title": "Carnivorous Squirrels",
+      "description": "Carnivorous squirrels begin invading the arena",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is brutally attacked by a scurry of squirrels.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} tries to kill as many squirrels as {0.he_she} can, but there are too many.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} uses the squirrels to {0.his_her} advantage, shoving {1} into them.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0}, in agony, kills {1} so {1.he_she} does not have to be attacked by the squirrels.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "The squirrels separate and kill {0} and {1}.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Volcano",
-      "description" : "A nearby volcano begins to erupt near the arena ",
-      "peaceful" : [
+      "title": "Volcano",
+      "description": "A nearby volcano begins to erupt near the arena ",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} is buried in ash.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} suffocates.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} pushes {1} in the lava.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} dips {0.his_her} weapon in the lava and kills {1} with it.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} trips and falls into lava taking {1} with {0.him_her}",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     },
     {
-      "title" : "Total Darkness",
-      "description" : "The arena turns pitch black and no one can see anything",
-      "peaceful" : [
+      "title": "Total Darkness",
+      "description": "The arena turns pitch black and no one can see anything",
+      "peaceful": [
         {
           "message": "{0} survives.",
           "tributes": 1
         }
       ],
-      "fatal" : [
-
+      "fatal": [
+        {
+          "message": "{0} trips on a rock and falls off a cliff.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} accidentally makes contact with spiny, lethal plant life.",
+          "tributes": 1,
+          "killers": [],
+          "killed": [0]
+        },
+        {
+          "message": "{0} flails {0.his_her} weapon around, accidentally killing {1}.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "{0} finds and kills {1}, who was making too much noise.",
+          "tributes": 2,
+          "killers": [0],
+          "killed": [1]
+        },
+        {
+          "message": "While fighting, {0} and {1} lose their balance, roll down a jagged hillside, and die.",
+          "tributes": 2,
+          "killers": [],
+          "killed": [0, 1]
+        }
       ]
     }
   ]
