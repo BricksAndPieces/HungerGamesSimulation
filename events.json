@@ -1,10 +1,438 @@
 {
   "bloodbath" : {
     "peaceful" : [
-
+      {
+        "message": "{0} grabs a shovel.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} grabs a backpack and retreats.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} and {1} fight for a bag. {0} gives up and retreats.",
+        "tributes": 2
+      },
+      {
+        "message": "{0} and {1} fight for a bag. {1} gives up and retreats.",
+        "tributes": 2
+      },
+      {
+        "message": "{0} finds a bow, some arrows, and a quiver.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} runs into the Cornucopia and hides.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} takes a handful of throwing knives.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} rips a mace out of {1}'s hands",
+        "tributes": 2
+      },
+      {
+        "message": "{0} finds a canteen full of water.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} stays at the Cornucopia for resources.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} gathers as much food as {0.he_she} can.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} grabs a sword.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} takes a spear from inside the Cornucopia.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} finds a bag full of explosives.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} clutches a first aid kit and runs away.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} takes a sickle from inside the Cornucopia.",
+        "tributes": 1
+      },
+      {
+        "message": "{0}, {1}, and {2} work together to get as many supplies as possible.",
+        "tributes": 3
+      },
+      {
+        "message": "{0} runs away with a lighter and some rope.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} snatches a bottle of alcohol and a rag.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} finds a backpack full of camping equipment.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} grabs a backpack, not realizing it is empty.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} breaks {1}'s nose for a basket of bread.",
+        "tributes": 2
+      },
+      {
+        "message": "{0}, {1}, {2}, and {3} share everything they gathered before running.",
+        "tributes": 4
+      },
+      {
+        "message": "{0} receives a trident from inside the Cornucopia.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} grabs a jar of fishing bait while {1} gets fishing gear.",
+        "tributes": 2
+      },
+      {
+        "message": "{0} scares {1} away from the Cornucopia.",
+        "tributes": 2
+      },
+      {
+        "message": "{0} grabs a shield leaning on the Cornucopia.",
+        "tributes": 1
+      },
+      {
+        "message": "{0} snatches a pair of sais.",
+        "tributes": 1
+      }
     ],
     "fatal" : [
-
+      {
+        "message": "{0} steps off {0.his_her} podium too soon and blows up.",
+        "tributes": 1,
+        "killers": [],
+        "killed": [0]
+      },
+      {
+        "message": "{0} throws a knife into {1}'s head.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} accidentally steps on a landmine.",
+        "tributes": 1,
+        "killers": [],
+        "killed": [0]
+      },
+      {
+        "message": "{0} catches {1} off guard and kills {1.him_her}.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} and {1} work together to drown {2}.",
+        "tributes": 3,
+        "killers": [0, 1],
+        "killed": [2]
+      },
+      {
+        "message": "{0} strangles {1} after engaging in a fist fight.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} shoots an arrow into {1}'s head.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} cannot handle the circumstances and commits suicide.",
+        "tributes": 1,
+        "killers": [],
+        "killed": [0]
+      },
+      {
+        "message": "{0} bashes {1}'s head against a rock several times.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} snaps {1}'s neck.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} decapitates {1} with a sword.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} spears {1} in the abdomen.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} sets {1} on fire with a molotov.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} falls into a pit and dies.",
+        "tributes": 1,
+        "killers": [],
+        "killed": [0]
+      },
+      {
+        "message": "{0} stabs {1} while {1.his_her} back is turned.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} severely injures {1}, but puts {1.him_her} out of {1.his_her} misery.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} severely injures {1} and leaves {1.him_her} to die.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} bashes {1}'s head in with a mace.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} pushes {1} off a cliff during a knife fight.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} throws a knife into {1}'s chest.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} is unable to convince {1} to not kill {0.him_her}.",
+        "tributes": 2,
+        "killers": [1],
+        "killed": [0]
+      },
+      {
+        "message": "{0} convinces {1} not to kill {0.him_her}, only to kill {1.him_her} instead.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} falls into a frozen lake and drowns.",
+        "tributes": 1,
+        "killers": [],
+        "killed": [0]
+      },
+      {
+        "message": "{0}, {1}, and {2} start fighting, but {1} runs away as {0} kills {2}.",
+        "tributes": 3,
+        "killers": [0],
+        "killed": [2]
+      },
+      {
+        "message": "{0} kills {1} with {1.his_her} own weapon.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} overpowers {1}, killing {1.him_her}.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} sets an explosive off, killing {1}.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} sets an explosive off, killing {1} and {2}",
+        "tributes": 3,
+        "killers": [0],
+        "killed": [1, 2]
+      },
+      {
+        "message": "{0} sets an explosive off, killing {1}, {2}, and {3}.",
+        "tributes": 4,
+        "killer": [0],
+        "killed": [1, 2, 3]
+      },
+      {
+        "message": "{0} sets an explosive off, killing {1}, {2}, {3}, and {4}",
+        "tributes": 5,
+        "killers": [0],
+        "killed": [1, 2, 3, 4]
+      },
+      {
+        "message": "{0} kills {1} as {1.he_she} tries to run.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} and {1} threaten a double suicide. It fails and they die.",
+        "tributes": 2,
+        "killers": [],
+        "killed": [0, 1]
+      },
+      {
+        "message": "{0}, {1}, {2}, and {3} form a suicide pact, killing themselves.",
+        "tributes": 4,
+        "killers": [],
+        "killed": [0, 1, 2, 3]
+      },
+      {
+        "message": "{0} kills {1} with a hatchet.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} and {1} fight {2} and {3}. {0} and {1} survive.",
+        "tributes": 4,
+        "killers": [0, 1],
+        "killed": [2, 3]
+      },
+      {
+        "message": "{0} and {1} fight {2} and {3}. {2} and {3} survive.",
+        "tributes": 4,
+        "killers": [2, 3],
+        "killed": [0, 1]
+      },
+      {
+        "message": "{0} attacks {1}, but {2} protects {1.him_her}, killing {0}",
+        "tributes": 3,
+        "killers": [2],
+        "killed": [0]
+      },
+      {
+        "message": "{0} severely slices {1} with a sword.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} strangles {1} with a rope",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} kills {1} for {1.his_her} supplies.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} shoots an arrow at {1}, but misses and kills {2} instead",
+        "tributes": 3,
+        "killers": [0],
+        "killed": [2]
+      },
+      {
+        "message": "{0} shoots a poisonous blow dart into {1}'s neck, slowly killing {1.him_her}.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} stabs {1} wth a tree branch.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} stabs {1} in the back with a trident.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0}, {1}, and {2} get into a fight. {0} triumphantly kills them both.",
+        "tributes": 3,
+        "killers": [0],
+        "killed": [1, 2]
+      },
+      {
+        "message": "{0}, {1}, and {2} get into a fight. {1} triumphantly kills them both.",
+        "tributes": 3,
+        "killers": [1],
+        "killed": [0, 2]
+      },
+      {
+        "message": "{0}, {1}, and {2} get into a fight. {2} triumphantly kills them both.",
+        "tributes": 3,
+        "killers": [2],
+        "killed": [0, 1]
+      },
+      {
+        "message": "{0} finds {1} hiding in the Cornucopia and kills {1.him_her}.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} finds {1} hiding in the Cornucopia, but {1} kills {0.him_her}",
+        "tributes": 2,
+        "killers": [1],
+        "killed": [0]
+      },
+      {
+        "message": "{0} kills {1} with a sickle.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} and {1} fight for a bag. {0} strangles {1} with the straps and runs.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      },
+      {
+        "message": "{0} and {1} fight for a bag. {1} strangles {0} with the straps and runs.",
+        "tributes": 2,
+        "killers": [1],
+        "killed": [0]
+      },
+      {
+        "message": "{0} repeatedly stabs {1} to death with sais.",
+        "tributes": 2,
+        "killers": [0],
+        "killed": [1]
+      }
     ]
   },
   "day" : {
